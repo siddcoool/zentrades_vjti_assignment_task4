@@ -1,4 +1,4 @@
-import ProductList from './task4/Page';
+import ProductList from './task2/Page';
 
 function App() {
   return <ProductList />;
