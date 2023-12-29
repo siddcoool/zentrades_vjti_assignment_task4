@@ -1,7 +1,7 @@
 import React, { useState } from "react";
 import "./page.css"; // Import the CSS file for styling
 import Dashboard from "./Dashboard";
-
+import Test1 from "./Test1"
 const LoginDashboard = ({ onLogin }) => {
   const [username, setUsername] = useState("");
   const [password, setPassword] = useState("");
@@ -61,7 +61,7 @@ const Wrapper = () => {
   const [isLoggedIn, setIsLoggedIn] = useState(false);
 
   if (isLoggedIn) return <Dashboard />;
-  else return <LoginDashboard onLogin={() => setIsLoggedIn(true)} />;
+  else return <Test1 onLogin={() => setIsLoggedIn(true)} />;
 };
 
 export default Wrapper;

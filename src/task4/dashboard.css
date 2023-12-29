@@ -1,8 +1,14 @@
+body{
+    background-color: white;
+}
+
 .container {
     display: flex;
     align-items: flex-start;
     justify-content: space-evenly;
-    margin: 18px;
+    padding: 18px;
+    height: 100%;
+    background-color: white;
     flex-direction: column;
 }
 .graph-container {
